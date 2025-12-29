@@ -1,9 +1,13 @@
-import React from 'react'
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 function App() {
   return (
-    <h1>Create Base Structure</h1>
-  )
+    <>
+      <Header />
+      <Footer />
+    </>
+  );
 }
 
-export default App
+export default App;
