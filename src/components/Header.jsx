@@ -1,3 +1,4 @@
+// Header component with navigation and mobile menu
 import { useState } from "react";
 import { BsCart } from "react-icons/bs";
 import { FaBars, FaRegUser } from "react-icons/fa";
@@ -5,6 +6,7 @@ import { IoClose, IoSearch } from "react-icons/io5";
 import logo from "../assets/images/logo-fronto.png";
 
 function Header() {
+  // State to manage mobile menu visibility
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (

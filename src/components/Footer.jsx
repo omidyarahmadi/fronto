@@ -1,3 +1,4 @@
+// Footer component with links, contact info, and newsletter subscription
 import {
   FaGithub,
   FaInstagram,
@@ -11,6 +12,7 @@ import {
 } from "react-icons/io5";
 
 export default function Footer() {
+  // Get current year for copyright notice
   const year = new Date().getFullYear();
 
   return (
@@ -22,9 +24,10 @@ export default function Footer() {
           <div className="site-footer__brand">
             <h2 className="site-footer__title text-2xl font-bold">Fronto</h2>
             <p className="site-footer__desc mt-3 text-sm leading-relaxed text-cyan-100/90">
-             Fronto is your go-to platform for mastering front-end development. We
-             offer comprehensive courses, hands-on projects, and expert mentoring to
-             help you build a successful career in web development.
+              Fronto is your go-to platform for mastering front-end development.
+              We offer comprehensive courses, hands-on projects, and expert
+              mentoring to help you build a successful career in web
+              development.
             </p>
 
             <div className="site-footer__social mt-5 flex items-center gap-3">
